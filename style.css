@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Merriweather:wght@300&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background: #23252f;
+
+  line-height: 1.7;
+  font-size: 13px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*left form wing*/
+
+.date {
+  position: absolute;
+  width: 161px;
+  height: 21px;
+  left: 279px;
+  top: 89px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.8px;
+  color: #ffffff;
+}
+
+.top h5 {
+  position: absolute;
+  width: 543px;
+  height: 84px;
+  top: 140px;
+  left: 291px;
+  font-family: "Merriweather", serif;
+  width: 700;
+  font-size: 32px;
+  line-height: 42px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.augmented {
+  position: absolute;
+  width: 553px;
+  height: 112px;
+  left: 281px;
+  top: 227px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.join {
+  position: absolute;
+  width: 543px;
+  height: 42px;
+  left: 279px;
+  top: 390;
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.fn {
+  position: absolute;
+  width: 261px;
+  height: 86px;
+  left: 279px;
+  top: 472px;
+
+  color: #23252f;
+}
+
+.fni {
+  width: 261px;
+  height: 60px;
+  color: #ffffff;
+  opacity: 0.5;
+  background: #23252f;
+}
+
+.label {
+  width: 77px;
+
+  height: 26px;
+  left: 279px;
+  top: 472px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.lastName {
+  height: 86px;
+  width: 261px;
+
+  top: 472px;
+  border-radius: 1px solid #464856;
+  position: absolute;
+  left: 561px;
+  top: 473px;
+}
+.lni {
+  width: 261px;
+  height: 60px;
+  top: 498px;
+  left: 531px;
+  background: #23252f;
+}
+
+.lastName-label {
+  height: 26px;
+  width: 75px;
+  left: 531px;
+  top: 472px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.business-name {
+  height: 86px;
+  width: 261px;
+  left: 275px;
+  top: 581px;
+  border-radius: 1px solid #464646;
+  position: absolute;
+}
+.business-input {
+  height: 60px;
+  width: 261px;
+  left: 275px;
+  top: 607px;
+  border-radius: 1px solid #464846;
+  color: #464856;
+  background: #23252f;
+}
+
+.business-label {
+  width: 109px;
+  left: 275px;
+  top: 581px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  border-radius: nullpx;
+  font-style: normal;
+  height: 26px;
+}
+
+.job-title {
+  height: 86px;
+  width: 261px;
+  left: 561px;
+  top: 581px;
+  border-radius: 1px solid #464856;
+  position: absolute;
+}
+
+.job-title-input {
+  height: 60px;
+  width: 261px;
+  left: 561px;
+  top: 607px;
+  border-radius: 1px solid #464856;
+  background: #232527;
+  color: #464856;
+  opacity: 0.5;
+}
+
+.job-title-label {
+  width: 109px;
+  left: 275px;
+  top: 581px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  border-radius: nullpx;
+  font-style: normal;
+  height: 26px;
+}
+
+.company-name {
+  height: 86px;
+  width: 261px;
+  left: 275px;
+  top: 692px;
+  border-radius: 1px solid #464646;
+  position: absolute;
+}
+.company-name-label {
+  width: 112px;
+  left: 275px;
+  top: 692px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+
+  font-style: normal;
+  height: 26px;
+}
+.company-name-input {
+  height: 60px;
+  width: 261px;
+  left: 275px;
+  top: 718px;
+  border-radius: 1px solid #464656;
+  background: #23252f;
+  opacity: 0.5;
+}
+
+.company-size {
+  height: 86px;
+  width: 261px;
+  left: 561px;
+  top: 692px;
+  position: absolute;
+}
+
+.company-size-label {
+  height: 26px;
+  width: 100px;
+  left: 561px;
+  top: 692px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  font-style: normal;
+}
+
+.company-size-input {
+  height: 60px;
+  width: 261px;
+  left: 561px;
+  top: 607px;
+  background: #23252f;
+  border: 1px solid #464856;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-style: normal;
+}
+.company-size-select {
+  height: 26px;
+  width: 26px;
+  left: 776px;
+  top: 735px;
+  border-radius: 0px;
+}
+
+.learn {
+  height: 144px;
+  width: 547px;
+  left: 267px;
+  top: 810px;
+  border-radius: 1px solid #464856;
+  position: absolute;
+}
+
+.learn-label {
+  height: 26px;
+  width: 259px;
+  left: 267px;
+  top: 810px;
+  font-family: IBM Plex Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.learn-input {
+  height: 118px;
+  width: 547px;
+  left: 287px;
+  top: 853px;
+  border-radius: nullpx;
+  opacity: 0.5;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 26px;
+  font-size: 16px;
+  color: #ffffff;
+  background: #23252f;
+}
+
+.check {
+  height: 26px;
+  width: 405px;
+  left: 286px;
+  top: 963px;
+  border: 1px solid #464856;
+  position: absolute;
+}
+
+.check-label {
+  height: 26px;
+  width: 371px;
+  left: 320px;
+  top: 963px;
+  border-radius: nullpx;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.check-input {
+  height: 24px;
+  width: 24px;
+  left: 286px;
+  top: 964px;
+  border-radius: 0px;
+  background: #23252f;
+  border: 1px solid #464856;
+}
+
+.btn {
+  height: 74px;
+  width: 289px;
+  left: 314px;
+  top: 1027px;
+  border-radius: 0px;
+  position: absolute;
+  font-family: IBM Plex Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+
+  font-style: normal;
+  color: #000000;
+}
+
+.container {
+}
+
+.social {
+  height: 60px;
+  width: 112px;
+  left: 1019px;
+  top: 224px;
+  border-radius: 0px;
+  position: absolute;
+}
+
+.share {
+  height: 21px;
+  width: 42px;
+  left: 1022px;
+  top: 224px;
+  font-family: IBM Plex Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.fa-facebook {
+  height: 24px;
+  width: 24px;
+  left: 1019px;
+  top: 260px;
+  border-radius: 0px;
+}
+
+/*.pics {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}*/
